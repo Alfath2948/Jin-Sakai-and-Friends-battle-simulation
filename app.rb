@@ -16,7 +16,7 @@ mongol_swordman = MongolSwordman.new("Mongol Swordman", 100, 50, 0)
 villain_minion = [mongol_archer,  mongol_spearman, mongol_swordman]
 
 i = 1
-until (villain_minion.empty? || villain_minion.empty?) do
+until (hero_group.empty? || villain_minion.empty?) do
     puts " ================ Turn #{i} ================\n "
 
     puts jin
